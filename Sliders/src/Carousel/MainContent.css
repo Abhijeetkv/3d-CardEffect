@@ -1,0 +1,29 @@
+.carousel .list .item .main-content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: calc(100% - calc(var(--w-image) * var(--calculate)));
+  }
+  .carousel .list .item .main-content .content {
+    padding: 150px 20px 20px 80px;
+  }
+  .carousel .list .item .main-content .content h2 {
+    font-size: 5em;
+    font-family: 'Aboreto';
+  }
+  .carousel .list .item .main-content .content .price {
+    font-family: 'Aboreto';
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  .carousel .list .item .main-content .content .addToCard {
+    background-color: #4f8b69;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: Poppins;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+  }
+  
